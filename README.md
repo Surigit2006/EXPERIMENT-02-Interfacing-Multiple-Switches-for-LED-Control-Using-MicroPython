@@ -64,21 +64,58 @@ Connect LED 2 to GP17 via a 330Ω resistor.
 Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
-''''
+```
+from machine import Pin
+from time import sleep
+
+switch1=Pin(2,Pin.IN)
+switch2=Pin(3,Pin.IN)
+
+led1=Pin(15,Pin.OUT)
+led2=Pin(16,Pin.OUT)
+
+while True:
+    sw1_state=switch1.value()
+    sw2_state=switch2.value()
+
+    print("Switch 1 state:",sw1_state)
+    print("Switch 2 state:",sw2_state)
+    led1.value(0)
+    led2.value(0)
+    
+    if sw1_state==1 and sw2_state==1:
+        led1.value(0)
+        led2.value(0)
+    elif sw1_state==1:
+        led1.value(1)
+        sleep(0.5)
+        led1.value(0)
+    elif sw2_state==1:
+        led2.value(1)
+        sleep(0.5)
+        led2.value(0)
+    sleep(0.5)
+
+```
 
 
 
  
 
 ## OUTPUT
+![Screenshot 2025-03-03 110723](https://github.com/user-attachments/assets/d30e691f-b4b0-4880-828d-b1cb46cf7358)
+
+
+![Screenshot 2025-03-03 110751](https://github.com/user-attachments/assets/7b09dbef-a1ec-4432-bf0f-231252151591)
+
+![Screenshot 2025-03-03 110816](https://github.com/user-attachments/assets/6854466c-239c-4305-b845-236ef7fa760f)
+
+
+![Screenshot 2025-03-03 110851](https://github.com/user-attachments/assets/ce476087-0d44-421c-af2c-844c08a831b8)
 
 
 
-FIGURE-02: CIRCUIT CONNECTION
 
-FIGURE-03: CODE EXECUTION OUTPUT
-
-FIGURE-04: LED STATUS BASED ON SWITCH INPUTS
 ## TIMING DIGAGRAM 
 
 
