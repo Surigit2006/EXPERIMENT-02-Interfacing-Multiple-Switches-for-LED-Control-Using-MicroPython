@@ -2,13 +2,13 @@
 
 
  
-## NAME:
+## NAME:M.K.Suriya prakash
 
-## DEPARTMENT:
+## DEPARTMENT:IoT
 
-## ROLL NO:
+## ROLL NO:212224110053
 
-## DATE OF EXPERIMENT:
+## DATE OF EXPERIMENT:3.3.2025
 
 ## AIM
 
@@ -103,15 +103,23 @@ while True:
  
 
 ## OUTPUT
+Figure 1: both switches as off
 ![Screenshot 2025-03-03 110723](https://github.com/user-attachments/assets/d30e691f-b4b0-4880-828d-b1cb46cf7358)
 
 
+Figure 2:switch 1 is on
+
 ![Screenshot 2025-03-03 110751](https://github.com/user-attachments/assets/7b09dbef-a1ec-4432-bf0f-231252151591)
 
-![Screenshot 2025-03-03 110816](https://github.com/user-attachments/assets/6854466c-239c-4305-b845-236ef7fa760f)
 
+Figure 3:switch 2 is on
 
 ![Screenshot 2025-03-03 110851](https://github.com/user-attachments/assets/ce476087-0d44-421c-af2c-844c08a831b8)
+
+
+Figure 3:both switches are on
+
+![Screenshot 2025-03-03 110816](https://github.com/user-attachments/assets/6854466c-239c-4305-b845-236ef7fa760f)
 
 
 
