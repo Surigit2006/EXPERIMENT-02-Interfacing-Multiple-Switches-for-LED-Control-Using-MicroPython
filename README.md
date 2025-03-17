@@ -127,7 +127,8 @@ while True:
 ## TIMING DIGAGRAM 
 
 
-UPLOAD YOUR TIMING DIGARAM HERE 
+![WhatsApp Image 2025-03-17 at 09 59 19_4d5d45eb](https://github.com/user-attachments/assets/26c22883-eb3c-4c79-90d8-dece4167a896)
+
 
 
 
